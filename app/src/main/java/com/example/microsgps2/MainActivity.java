@@ -84,10 +84,10 @@ public class MainActivity extends AppCompatActivity {
                         lon.setText(String.valueOf(longitude));
 
                         // Guarda las coordenadas en Firebase en tiempo real
-                        //db = FirebaseDatabase.getInstance();
-                        //reference = db.getReference("coordenadas");
-                        //reference.child("micro1").child("lat").setValue(latitud);
-                        //reference.child("micro1").child("lng").setValue(longitude);
+                        db = FirebaseDatabase.getInstance();
+                        reference = db.getReference("coordenadas");
+                        reference.child("micro1").child("lat").setValue(latitud);
+                        reference.child("micro1").child("lng").setValue(longitude);
                     }
                     progressBar.setVisibility(View.GONE);
                 }
