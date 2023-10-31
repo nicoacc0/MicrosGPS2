@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648297421025",
+    "project_id": "microgpsj",
+    "storage_bucket": "microgpsj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648297421025:android:a5ed0e7aec5dd0c93d3fa0",
+        "android_client_info": {
+          "package_name": "com.example.microsgps2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxlvqFgG7n4P6olHE1HfNI3NLnjvkR1f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
