@@ -1,0 +1,5 @@
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#D9E1EA" /> <!-- Color de fondo del campo de texto -->
+    <corners android:radius="8dp" /> <!-- Radio de los bordes, puedes ajustar este valor según tu preferencia -->
+</shape>
