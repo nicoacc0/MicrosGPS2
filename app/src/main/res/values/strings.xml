@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">MicrosGPS2</string>
+    <string name="titulo" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cerrar" />
+    <string name="obtenercoordenada" />
+    <string name="salir" />
+    
+    
+    <string-array name="LocalidadesOrigen">
+        <item>Selecciona el Origen</item>
+        <item>Molina</item>
+        <item>Curicó</item>
+    </string-array>
+
+    <string-array name="LocalidadesDestino">
+        <item>Selecciona el Destino</item>
+        <item>Molina</item>
+        <item>Curicó</item>
+    </string-array>
+
+
+    <string-array name="Recorridos">
+        <item>Selecciona el Recorrido</item>
+        <item>Bicentenario</item>
+        <item>Don Sebastían-Hospital</item>
+        <item>Tres Esquinas</item>
+        <item>Hospital-Estación</item>
+    </string-array>
+
+
 </resources>
