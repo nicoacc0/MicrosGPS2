@@ -45,11 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 if (itemId == R.id.home) {
                     getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
                     return true;
-                } else if (itemId == R.id.profile) {
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, profileFragment).commit();
-                    return true;
                 }
-
                 return false;
             }
         });
